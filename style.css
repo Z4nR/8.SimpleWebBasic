@@ -1,0 +1,129 @@
+/*id*/
+#box_1 {
+    flex-grow: 9;
+}
+#box_2 {
+    text-align: center;
+}
+
+#Model {
+    margin: 4px;
+}
+#View {
+    margin: 4px;
+}
+#ViewModel {
+    margin: 4px;
+}
+
+#head_2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+/*class*/
+.header {
+    display: flex;
+    width: auto;
+    padding: 10px;
+    margin: 4px;
+    text-align: justify;
+    background-color: cornsilk;
+    border-radius: 8px;
+    flex-direction: column;
+}
+.head {
+    flex-grow: 1;
+    background-color: blanchedalmond;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.headnav {
+    background-color: transparent;
+}
+
+.name {
+    font-weight: bold;
+}
+
+ul.list li {
+    flex-grow: 1;
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    width: auto;
+    height: 50%;
+    background-color: cornsilk;
+    border-radius: 8px;
+    margin: 4px;
+}
+.box {
+    flex-grow: 1;
+    background-color: blanchedalmond;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.button {
+    background-color: rgb(224, 155, 65);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color:rgb(224, 155, 65);
+    opacity: 1;
+}
+
+/*tag*/
+body {
+    background-color: bisque;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    margin: 4px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+li {
+    margin: 5px;
+}
+
+ul {
+    padding: 0;
+    height: 60px;
+    margin: 0 4px 0 4px;
+}
+
+a {
+    text-decoration: solid;
+    color: white;
+}
+
+/*media query*/
+@media screen and (max-width: 630px) {
+    .container{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .box{
+        font-size: small;
+    }
+}
