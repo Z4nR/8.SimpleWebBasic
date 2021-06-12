@@ -28,13 +28,11 @@
     color: white;
     flex-grow: 1;
 }
-
 #list-drop {
     position: absolute;
     z-index: 1;
     display: none;
 }
-
 #list-drop a {
     text-decoration: solid;
     color: white;
@@ -62,6 +60,12 @@
     font-size: 20px;
     padding: 60px;
     text-align: center;
+    background-image: url("asset/steak_image_edited.jpg");
+    background-size: 120%;
+    background-position: 55% 45%;
+    border-radius: 8px;
+    margin: 5px;
+    color: white;
 }
 
 .headnav {
@@ -109,6 +113,18 @@ li.list {
 .button:hover {
     background-color:rgb(224, 155, 65);
     opacity: 1;
+}
+
+.button-drop {
+    background-color: rgb(224, 155, 65);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 li.parent-drop {
@@ -171,9 +187,8 @@ a {
     }
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 910px) {
     li.parent-drop{
-        content-visibility: hidden;
         display: none;
     }
     li.list{
@@ -181,9 +196,8 @@ a {
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 910px) {
     li.list{
-        content-visibility: hidden;
         display: none;
     }
     li.parent-drop{
