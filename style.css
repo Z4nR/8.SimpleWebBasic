@@ -31,12 +31,14 @@
 #list-drop {
     position: absolute;
     z-index: 1;
-    display: none;
+    width: 100%;
+    margin-top: 0px;
 }
 #list-drop a {
     text-decoration: solid;
     color: white;
     display: block;
+    border-radius: 4px;
 }
 
 /*class*/
@@ -48,6 +50,7 @@
     background-color: cornsilk;
     border-radius: 8px;
     flex-direction: column;
+    height: auto;
 }
 .head {
     flex-grow: 1;
@@ -105,15 +108,13 @@ li.list {
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    opacity: 0.6;
     transition: 0.3s;
     cursor: pointer;
     border-radius: 8px;
 }
 
 .button:hover {
-    background-color:rgb(224, 155, 65);
-    opacity: 1;
+    background-color:rgb(243, 146, 20);
 }
 
 .button-drop {
@@ -123,16 +124,20 @@ li.list {
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    opacity: 0.6;
     transition: 0.3s;
     cursor: pointer;
 }
 
+.button-drop:hover {
+    background-color:rgb(243, 146, 20);
+}
+
 li.parent-drop {
     position: relative;
-    display: inline-flex;
+    flex-direction: column;
     flex-grow: 1;
     list-style-type: none;
+    height: 100%;
 }
 
 /*tag*/
