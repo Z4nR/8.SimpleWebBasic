@@ -7,11 +7,6 @@ function getData() {
     }
 }
 
-function hiddenList() {
-    var list = document.getElementsById("list-drop");
-    if (list.style.display === "inline-block") {
-        list.style.display = "none";
-    } else {
-        list.style.display = "inline-block";
-    }
+function resize(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
 }
