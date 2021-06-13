@@ -31,8 +31,8 @@
 #list-drop {
     position: absolute;
     z-index: 1;
-    width: 100%;
     margin-top: 0px;
+    right: 0;
 }
 #list-drop a {
     text-decoration: solid;
@@ -89,7 +89,7 @@ li.list {
 .container {
     display: flex;
     width: auto;
-    height: 50%;
+    height: auto;
     background-color: cornsilk;
     border-radius: 8px;
     margin: 4px;
@@ -120,7 +120,7 @@ li.list {
 .button-drop {
     background-color: rgb(224, 155, 65);
     border: none;
-    padding: 15px 32px;
+    padding: 15px 45px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -138,11 +138,17 @@ li.parent-drop {
     flex-grow: 1;
     list-style-type: none;
     height: 100%;
+    width: 100%;
+}
+
+.article {
+    list-style-type: none;
 }
 
 /*tag*/
 body {
     background-color: bisque;
+    overflow-y: scroll;
 }
 
 footer {
@@ -170,6 +176,17 @@ a {
     text-decoration: solid;
     color: white;
     flex-grow: 1;
+}
+
+img {
+    width: 75%;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
 }
 
 /*media query*/
