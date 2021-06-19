@@ -33,11 +33,11 @@
                 <li class="parent-drop">
                     <button id="dropdown" onclick="getData()" class="button">Tingkat Kematangan</button>
                     <div id="list-drop">
-                        <a href="rare.html" class="button-drop" target="article">Rare</a>
-                        <a href="medium_rare.html" class="button-drop" target="article">Medium Rare</a>
-                        <a href="medium.html" class="button-drop" target="article">Medium</a>
-                        <a href="medium_well.html" class="button-drop" target="article">Medium Well</a>
-                        <a href="welldone.html" class="button-drop" target="article">Welldone</a>
+                        <a href="rare.html" onclick="getData()" class="button-drop" target="article">Rare</a>
+                        <a href="medium_rare.html" onclick="getData()" class="button-drop" target="article">Medium Rare</a>
+                        <a href="medium.html" onclick="getData()" class="button-drop" target="article">Medium</a>
+                        <a href="medium_well.html" onclick="getData()" class="button-drop" target="article">Medium Well</a>
+                        <a href="welldone.html" onclick="getData()" class="button-drop" target="article">Welldone</a>
                     </div>
                 </li>
             </ul>
@@ -45,7 +45,7 @@
     </header>
     <main class="container">
         <div class="box" id="box_1">
-            <iframe onload="resize(this)" title="this is article box" src="article.html" scrolling="no" frameborder="0" name="article"></iframe>
+            <iframe onload="resize(this)" title="this is article box" src="article.html" frameborder="0" name="article"></iframe>
         </div>
         <aside class="box" id="box_2">
             <article>

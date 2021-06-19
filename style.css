@@ -147,9 +147,17 @@ li.parent-drop {
 }
 
 /*tag*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+p {
+    font-size: larger;
+    text-align: justify;
+}
+
 body {
     background-color: bisque;
-    overflow-y: scroll;
 }
 
 footer {
