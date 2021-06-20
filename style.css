@@ -147,6 +147,10 @@ li.parent-drop {
     text-align: justify;
 }
 
+.profil {
+    border-radius: 50%;
+}
+
 /*tag*/
 body {
     background-color: bisque;
