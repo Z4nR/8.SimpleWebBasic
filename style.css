@@ -77,10 +77,6 @@
     background-color: transparent;
 }
 
-.name {
-    font-weight: bold;
-}
-
 li.list {
     flex-grow: 1;
     list-style-type: none;
@@ -146,16 +142,12 @@ li.parent-drop {
     list-style-type: none;
 }
 
-/*tag*/
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-p {
+.p {
     font-size: larger;
     text-align: justify;
 }
 
+/*tag*/
 body {
     background-color: bisque;
 }
@@ -196,6 +188,12 @@ iframe {
     width: 100%;
     border-radius: 5px;
 }
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
 
 /*media query*/
 @media screen and (max-width: 630px) {
